@@ -1,6 +1,7 @@
 - name: Install Docker
   hosts: all
   become: yes
+  become_user: root
   tasks:
   - name: Update apt package index
     apt:
