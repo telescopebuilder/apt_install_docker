@@ -1,5 +1,5 @@
 - name: Install Docker
-  hosts: all
+  hosts: all, !andy-awxnode-test
   become: yes
   become_user: root
   tasks:
